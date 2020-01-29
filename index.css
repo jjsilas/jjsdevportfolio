@@ -5,12 +5,20 @@
   body {
     font-family: "Open Sans",
     sans-serif; 
-    font-size: 20px;
+    font-size: 15px;
     color: #444;
     text-align: center;
     line-height: 1.5;
   }
   
+  header {
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    top: 0;
+  }
+
+
   nav {
     position: fixed;
     top: 0;
@@ -19,14 +27,108 @@
     z-index: 10;
   }
   
-  
-  header {
-    padding: 12% 0;
+  .hamburger {
+    width: 100%;
+    margin: 5px auto;
+    text-align: right;
+    color: grey;
   }
+
+  ul.menu {
+    display: none;
+    list-style-type: none;
+    align-items: flex-end;
+    text-align: right;
+    list-style: none;
+    overflow: hidden;
+   }
+
+   li {
+    float: right;
+    display: block;
+    color: rgb(167, 162, 162);
+    text-align: center;
+    padding: 5px;
+    text-decoration: none;
+  }
+
+   .description1 {
+    color: #444;
+    text-align: left;
+  }
+
+  
+/* line break in mobile */
+  .project1{
+    border-top: 1px solid grey;
+    margin: 5px auto;
+    padding: 5%;
+  }
+
+  .projectimage {
+  border-radius: 4px;
+  padding: 5px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
   
   section {
-    min-height: 200px;
+    min-height: 20px;
     padding: 6% 0;
-    background-color: #bbb;
+    
+  }
+
+  .social {
+    display:flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1px;
+    list-style: none;
+    text-align: center;
+    justify-content: space-between;
   }
   
+  @media screen and (min-width:600px) {
+  
+    body {
+      font-family: "Open Sans",
+      sans-serif; 
+      font-size: 20px;
+      color: #444;
+      text-align: center;
+      line-height: 1.5;
+    }
+  
+  /* remove hamburger in larger screens */
+    .hamburger{
+    display: none;
+ }
+
+ /* remove line in larger screens */
+ .project1{
+  border-top: 0px solid grey;
+  margin: 5px auto;
+  padding: 5%;
+  }
+
+  .imagepk {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+
+  }
+  ul.menu {
+  display: block;
+  flex-direction: row-reverse;
+  margin: 3px auto;
+   }
+
+   .description1 {
+    color: #444;
+    text-align: left;
+    column-count: 2;
+    column-gap: 40px
+  }
+
+}
