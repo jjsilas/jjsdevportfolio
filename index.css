@@ -127,10 +127,12 @@
   ul.menu {
   display: block;
   margin: 3px auto;
-   }
+  font-size: 12px;   
+}
 
    .description1 {
-    margin-left: 7%;
+    margin-left: 15%;
+    margin-right: 15%;
     
     column-count: 2;
     column-gap: 5%
