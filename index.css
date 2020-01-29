@@ -5,10 +5,16 @@
   body {
     font-family: "Open Sans",
     sans-serif; 
+<<<<<<< HEAD
     font-size: 15px;
     color: #4444;
+=======
+    font-size: 17px;
+    color: #444443;
+>>>>>>> 65707253f25360ff7f74f7a364eeeb7c693a130e
     text-align: center;
-    line-height: 1.5;
+    line-height: 2;
+    background-color: #fbfaf7;
   }
   
   header {
@@ -16,6 +22,8 @@
     margin: 20px auto;
     text-align: center;
     top: 0;
+    color: #5c532d;
+    font-family: Garamond;
   }
 
 
@@ -29,7 +37,7 @@
   
   .hamburger {
     width: 100%;
-    margin: 5px auto;
+    margin: 30px auto;
     text-align: right;
     color: grey;
   }
@@ -46,14 +54,14 @@
    li {
     float: right;
     display: block;
-    color: rgb(167, 162, 162);
+    color: #5c532d;
     text-align: center;
     padding: 5px;
     text-decoration: none;
   }
 
    .description1 {
-    color: #444;
+    color: #444443;
     text-align: left;
   }
 
@@ -63,6 +71,8 @@
     border-top: 1px solid grey;
     margin: 5px auto;
     padding: 5%;
+    color: #5c532d;
+    font-family: Garamond;
   }
 
   .projectimage {
@@ -79,14 +89,15 @@
     
   }
 
-  .social {
+  .connect {
     display:flex;
     margin-left: auto;
     margin-right: auto;
     padding: 1px;
     list-style: none;
-    text-align: center;
     justify-content: space-between;
+    padding-left:  20%;
+    padding-right:  20%;
   }
   
   @media screen and (min-width:600px) {
@@ -94,7 +105,7 @@
     body {
       font-family: "Open Sans",
       sans-serif; 
-      font-size: 20px;
+      font-size: 16px;
       color: #444;
       text-align: center;
       line-height: 1.5;
@@ -120,15 +131,20 @@
   }
   ul.menu {
   display: block;
-  flex-direction: row-reverse;
   margin: 3px auto;
    }
 
    .description1 {
-    color: #444;
-    text-align: left;
+    margin-left: 7%;
+    
     column-count: 2;
-    column-gap: 40px
+    column-gap: 5%
   }
+
+  .connect {
+    padding-left:  30%;
+    padding-right:  30%;
+  }
+
 
 }
