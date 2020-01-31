@@ -5,7 +5,7 @@
   body {
     font-family: "Open Sans",
     sans-serif; 
-    font-size: 17px;
+    font-size: 1em;
     color: #444443;
     text-align: center;
     line-height: 2;
@@ -13,7 +13,6 @@
   }
   
   header {
-    width: 100%;
     margin: 17px auto;
     text-align: center;
     top: 0;
@@ -37,8 +36,7 @@ a:hover, a:active {
   text-decoration: none;
 }
 
-
-
+/* Burger Menu */
   nav {
     position: fixed;
     top: 0;
@@ -72,6 +70,12 @@ a:hover, a:active {
     text-decoration: none;
   }
 
+  /* Hamburger menu END STYLING -->
+
+
+ /*<!-- Hamburger menu END STYLING */
+
+
    .description1 {
     color: #444443;
     text-align: left;
@@ -88,12 +92,12 @@ a:hover, a:active {
   }
 
   .projectimage {
-  border-radius: 4px;
-  padding: 5px;
-  width: 80%;
-  margin-left: auto;
-  margin-right: auto;
-}
+    border-radius: 4px;
+    padding: 5px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   
   section {
     min-height: 20px;
@@ -108,46 +112,55 @@ a:hover, a:active {
     padding: 1px;
     list-style: none;
     justify-content: space-between;
-    padding-left:  20%;
-    padding-right:  20%;
+    padding-left: 20%;
+    padding-right: 20%;
   }
   
+
+/*BEGINNING OF BURGER CSS*/
+
+
+  
+/* THE END OF THE BURGER CSS*/
+
+/* Read More*/
+
+#more {
+  display: none;
+}
+
   @media screen and (min-width:600px) {
   
-    body {
-      font-family: "Open Sans",
-      sans-serif; 
-      font-size: 16px;
-      color: #444;
-      text-align: center;
-      line-height: 1.5;
-    }
+  body {
+    font-family: "Open Sans",
+    sans-serif; 
+    font-size: 1em;
+    color: #444;
+    text-align: center;
+    line-height: 1.5;
+  }
   
-    header {
-      width: 100%;
-      margin: 17px auto;
-      text-align: center;
-      top: 0;
-      color: #5c532d;
-      font-family: Garamond;
-      font-size: 24px;
-    }
+  header {
+    width: 100%;
+    margin: 17px auto;
+    text-align: center;
+    top: 0;
+    color: #5c532d;
+    font-family: Garamond;
+    font-size: 1.3em;
+  }
   
-    h2 {
-      font-style: italic;
-      font-size: 20px;
-    }
-  
+  h2 {
+    font-style: italic;
+    font-size: 1em;
+  }
 
-
-
-
-  /* remove hamburger in larger screens */
+  /*remove hamburger in larger screens */
     .hamburger{
-    display: none;
- }
+    display:none;
+  }
 
- /* remove line in larger screens */
+ /*remove line in larger screens */
  .project1{
   border-top: 0px solid grey;
   margin: 5px auto;
@@ -158,18 +171,17 @@ a:hover, a:active {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
-
   }
+
   ul.menu {
   display: block;
   margin: 3px auto;
-  font-size: 12px;   
-}
+  font-size: .8em;   
+  }
 
-   .description1 {
+  .description1 {
     margin-left: 10%;
-    margin-right: 10%;
-    
+    margin-right: 10%;    
     column-count: 2;
     column-gap: 5%
   }
@@ -179,5 +191,4 @@ a:hover, a:active {
     padding-right:  30%;
   }
 
-
-}
+  }
