@@ -7,12 +7,11 @@
     <title>Jherich Silas Developer Portfolio</title>
     <link rel="stylesheet" type="text/css" href="index.css">
     <script type="text/javascript" src="index.js"></script>
-    
-
-
-
-
+    <link rel="stylesheet" type="text/css" href="menu.css">
+    <script type="text/javascript" src="script.js"></script>
     </head>
+
+
 <body>
     <main role="main">
         <header role="banner">
@@ -20,24 +19,37 @@
             <!-- Main header text-->
             <h1>Full-Stack Developer Portfolio</h1>
 
+
+<!-- Mobile Nav Menu-->
+<div id="myNav" class="overlay">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <div class="overlay-content">
+        <a href= "mailto: jjsilas@gmail.com">Email</a>
+        <a href= "https://github.com/jjsilas">GitHub</a>
+        <a href= "https://www.linkedin.com/in/jjsilas75">Linkedin</a>
+    </div>
+  </div>
+  
+  <span class ="style_open" style onclick="openNav()">&#9776;</span>
+<!-- Mobile Nav Menu end -->
+
+ <!--  Legacy Code-->
+ <nav class="navbar">
+    <ul class="menu">
+        <li class="social_icon"><a href= "mailto: jjsilas@gmail.com"><i class="fab fa-email"></i>Email</a></li>             
+        <li class="social_icon"><a href= "https://github.com/jjsilas"><i class="fab fa-github"></i>GitHub</a></li>
+        <li class="social_icon"><a href= "https://www.linkedin.com/in/jjsilas75"><i class="fab fa-linkedin"></i>Linkedin</a></li>
+
+    </ul>
+</nav>
+
+
+
             <!-- Secondary header text-->            
             <h2>UI/UX Focused with a passion for User Experience Optimization</h2>
+       
+       
         </header>
-
-
-        <!-- Hamburger menu-->
-        <!--  Legacy Code-->
-            <nav class="navbar">
-            <div class="hamburger">&#9776;</div>
-            <ul class="menu">
-            
-                <li class="social_icon"><a href= "mailto: jjsilas@gmail.com"><i class="fab fa-email"></i>Email</a></li>             
-                <li class="social_icon"><a href= "https://github.com/jjsilas"><i class="fab fa-github"></i>GitHub</a></li>
-                <li class="social_icon"><a href= "https://www.linkedin.com/in/jjsilas75"><i class="fab fa-linkedin"></i>Linkedin</a></li>
-
-            </ul>
-        </nav>
-
 
         <section class="imagepk">
             <img class="imagepk1"src="images/pkrivervault.jpg" alt="This is a quiz app that quickly covers fact about orgins of the movement style known as parkour." style="width:70%" title="Art du Déplacement Quiz">
@@ -61,8 +73,12 @@
 
        
        <div class="projectimage"><a href= "https://jjsilas.github.io/LearnADD/"><img src="images/add_app.png" alt="ADD Quiz App" style="width:25%" title="ADD Quiz"></div> 
+        
         <div class="project_name">ADD Quiz App</div>
-    
+        <div class="project_des">Project Description -  This quiz app was designed to give someone unfamiliar with ADD a quick history of the discipline focused on the founders, and references in current culture. 
+List of technologies used - The quiz app uses Semantic HTML, CSS, and JavaScript.
+Link to live app - https://jjsilas.github.io/LearnADD/
+<br>Link to repo <a href= "https://github.com/jjsilas/LearnADD"> Repo</a></br></div>
             
     </article>
 
