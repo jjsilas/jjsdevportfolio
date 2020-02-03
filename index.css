@@ -5,7 +5,6 @@
   body {
     font-family: "Open Sans",sans-serif; 
     font-size: .8em;
-    font-weight: lighter;
     color: #444443;
     text-align: center;
     line-height: 1.7;
@@ -46,12 +45,12 @@
   a:link, a:visited {
     color:#5c532d;
     text-decoration: none;
-}
+  }
 
 a:hover, a:active {
   color:grey;
   text-decoration: none;
-}
+  }
 
 /* First Burger Menu */
   nav {
@@ -82,16 +81,11 @@ a:hover, a:active {
 
   /* Hamburger menu END STYLING --> */
 
-
- /*<!-- Hamburger menu END STYLING */
-
-
   .description1 {
     color: #444443;
     text-align: left;
   }
 
-  
 /* line break in mobile */
   .project1{
     border-top: 1px solid grey;
@@ -112,7 +106,6 @@ a:hover, a:active {
   section {
     min-height: 20px;
     padding: 6% 0;
-    
   }
 
   .connect {
@@ -138,45 +131,34 @@ a:hover, a:active {
     background-color: none;
   }
 
-
-
-/*BEGINNING OF BURGER CSS*/
-
-
-  
-/* THE END OF THE BURGER CSS*/
-
 /* Read More*/
-
-#more {
-  display: none;
+  #more {
+    display: none;
 }
 
 
-.project_des {
-display: block;
- text-align: left;
+  .project_des {
+    display: block;
+    text-align: left;
+    line-height: 1.9;
+    margin-left: 3%;
+    margin-right: 3%;
 }
 
 
   @media screen and (min-width:600px) {
   
   body {
-    font-family: "Open Sans",
-    sans-serif; 
     font-size: 1em;
-    color: #444;
-    text-align: center;
     line-height: 1.5;
+    font-weight: lighter;
   }
   
   header {
     width: 100%;
     margin: 17px auto;
     text-align: center;
-    top: 0;
     color: #5c532d;
-    font-family: Garamond;
     font-size: 1.3em;
   }
   
@@ -187,12 +169,7 @@ display: block;
     font-size: 1em;
   }
 
-  /*remove hamburger in larger screens  First MEnu /
-    .hamburger{
-    display:none;
-  }*/
-
- /*remove line in larger screens */
+/*remove line in larger screens */
  .project1{
   border-top: 0px solid grey;
   margin: 5px auto;
@@ -223,16 +200,12 @@ display: block;
     padding-right:  30%;
   }
 
-
   #more {
     display: hidden;
   }
 
-
-  /* To be edited for larger screen*/
   .navbar, h1 {
     display:inline-block;
     
     }
-
   }
