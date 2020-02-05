@@ -22,12 +22,12 @@
 
 /* managed font size*/
 .overlay a {
-  padding: 8px;
+  padding: 5px;
   text-decoration: none;
   color: #818181;
   display: block;
   transition: 0.3s;
-  font-size: 1.3em;
+  font-size: 1em;
   cursor: pointer;
 }
 
