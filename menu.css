@@ -22,14 +22,14 @@
 
 /* managed font size*/
 .overlay a {
-  padding: 5px;
+  padding: 8px;
   text-decoration: none;
   color: #818181;
   display: block;
   transition: 0.3s;
-  font-size: .9em;
+  font-size: .8em;
   cursor: pointer;
-  font-family: 'Lucida Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .overlay a:hover, .overlay a:focus {

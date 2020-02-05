@@ -3,7 +3,8 @@
   }
   
   body {
-    font-family: 'Lucida Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
     font-size: 1em;
     color: #444443;
     text-align: center;
