@@ -197,8 +197,9 @@ a:hover, a:active {
     margin-left: 10%;
     margin-right: 10%;    
     column-count: 2;
-    column-gap: 5%
+    column-gap: 5%;
   }
+
 /* Contact links in the footer of the site Specific CSS */
   .connect {
     padding-left:  30%;
