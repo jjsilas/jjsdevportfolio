@@ -150,9 +150,19 @@ a:hover, a:active {
   border: 2px solid #5c532d;
 }
 
+/* I need to make the h4 tag invisible on the screen but still accessible*/
 h4 {
-  display:none;
+    border: 0;
+    clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+    clip; rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
 }
+
 
   @media screen and (min-width:600px) {
   
@@ -195,12 +205,11 @@ h4 {
   font-size: .8em;   
   }
 
-  .description1 {
-    margin-left: 10%;
-    margin-right: 10%;    
+  .description1 {  
     column-count: 2;
-    column-gap: 5%;
-  }
+    height: auto;
+    column-fill: balance;
+    }
 
 /* Contact links in the footer of the site Specific CSS */
   .connect {
