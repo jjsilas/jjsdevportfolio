@@ -27,8 +27,9 @@
   color: #818181;
   display: block;
   transition: 0.3s;
-  font-size: 1em;
+  font-size: .9em;
   cursor: pointer;
+  font-family: 'Lucida Sans', sans-serif;
 }
 
 .overlay a:hover, .overlay a:focus {
