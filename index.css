@@ -87,7 +87,7 @@ a:hover, a:active {
   }
 
 /* line break in mobile */
-  .project1{
+  .project1 .project2,{
     border-top: 1px solid grey;
     margin: 5px auto;
     padding-top: 0%;
