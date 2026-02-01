@@ -1,0 +1,13 @@
+# Mac system files
+.DS_Store
+
+# Server/Host files
+.ftpquota
+*.log
+
+# Windows system files
+Thumbs.db
+
+# Large asset folders (Optional)
+# If your assets folder is huge, we can discuss it later, 
+# but for now, keep it for the baseline.
