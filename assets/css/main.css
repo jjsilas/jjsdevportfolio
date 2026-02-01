@@ -1415,3 +1415,12 @@ ul {
 
 
 }
+/* This forces all social links to stay dark even after clicking */
+a.text-dark:visited {
+  color: #212529 !important; /* This is the standard Bootstrap 'dark' hex code */
+}
+
+a.text-dark:hover {
+  color: #000 !important; /* Slightly darker on hover */
+  text-decoration: none;
+}

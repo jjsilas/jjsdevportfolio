@@ -113,6 +113,24 @@
 				font-size: 9pt;
 			}
 		}
+
+		/* Force links to stay dark and remove the default underline */
+a.text-dark {
+    color: #212529; /* Standard dark grey/black */
+    text-decoration: none;
+}
+
+/* This stops the "Purple" visited state */
+a.text-dark:visited {
+    color: #212529;
+}
+
+/* This adds a subtle "glow" or darkening  */
+a.text-dark:hover {
+    color: #000000;
+    text-decoration: none;
+    opacity: 0.8;
+}
 	</style>
 </head>
 
@@ -124,11 +142,11 @@
 	</div>
 	<h1>Jherich J. Silas</h1>
 	<div class="contact">
-		Flower Mound, TX | <a href="mailto:contact@jherichsilas.com">contact@jherichsilas.com</a><br>
-		<a href="https://linkedin.com/in/jjsilas75" target="_blank">LinkedIn</a> |
-<a href="https://github.com/jjsilas" target="_blank">GitHub</a> |
-<a href="https://instagram.com/our_dirttherapy/" target="_blank">Project: Dirt Therapy</a> |
-<a href="https://jherichsilas.com/" target="_blank">Technical Portfolio</a>
+		Flower Mound, TX | <a href="mailto:contact@jherichsilas.com" class="text-dark">contact@jherichsilas.com</a><br>
+		<a href="https://linkedin.com/in/jjsilas75" target="_blank" class="text-dark">LinkedIn</a> |
+		<a href="https://github.com/jjsilas" target="_blank" class="text-dark">GitHub</a> |
+		<a href="https://instagram.com/our_dirttherapy/" target="_blank" class="text-dark">Project: Dirt Therapy</a> |
+		<a href="https://jherichsilas.com/" target="_blank" class="text-dark">Technical Portfolio</a>
 	</div>
 
 	<h2>Professional Summary</h2>
