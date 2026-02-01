@@ -3,7 +3,7 @@
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
         # Recipient Email
-        $mail_to = "jjsilas@gmail.com";
+        $mail_to = "contact@jherichsilas.com";
         
         # 1. Security Challenge (Fail Fast)
         $quiz_answer = trim($_POST["quiz"]);
