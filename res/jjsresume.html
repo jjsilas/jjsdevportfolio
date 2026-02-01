@@ -39,6 +39,26 @@
 			margin-bottom: 5px;
 		}
 
+		/* Screen-only styles for the Back button */
+		.no-print a {
+			display: inline-block;
+			padding: 8px 15px;
+			background-color: transparent;
+			border: 1px solid #333;
+			border-radius: 4px;
+			transition: all 0.2s ease-in-out;
+		}
+
+		.no-print a:hover {
+			background-color: #333;
+			/* Fills the button on hover */
+			color: #fff !important;
+			/* Flips text to white */
+			text-decoration: none;
+			transform: translateY(-1px);
+			/* Subtle physical lift */
+		}
+
 		@media print {
 			body {
 				margin: 0;
