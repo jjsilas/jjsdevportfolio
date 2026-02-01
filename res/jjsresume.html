@@ -39,24 +39,32 @@
 			margin-bottom: 5px;
 		}
 
-		/* Screen-only styles for the Back button */
+		/* Screen-only Styles: Unified with Portfolio Button */
 		.no-print a {
-			display: inline-block;
-			padding: 8px 15px;
-			background-color: transparent;
-			border: 1px solid #333;
-			border-radius: 4px;
-			transition: all 0.2s ease-in-out;
+			display: inline-flex;
+			align-items: center;
+			padding: 10px 22px;
+			background-color: #343a40;
+			/* Matching the portfolio's initial dark gray */
+			color: #ffffff !important;
+			text-decoration: none;
+			border-radius: 5px;
+			font-weight: 500;
+			font-size: 16px;
+			transition: all 0.3s ease;
+			border: 1px solid #343a40;
 		}
 
 		.no-print a:hover {
-			background-color: #333;
-			/* Fills the button on hover */
-			color: #fff !important;
-			/* Flips text to white */
-			text-decoration: none;
-			transform: translateY(-1px);
-			/* Subtle physical lift */
+			background-color: #f21e4e;
+			/* The 'Science of Thrill' pink flip */
+			border-color: #f21e4e;
+			transform: translateY(-2px);
+			box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+		}
+
+		.no-print a i {
+			margin-right: 8px;
 		}
 
 		@media print {
