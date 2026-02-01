@@ -38,11 +38,53 @@
 		li {
 			margin-bottom: 5px;
 		}
+
+		@media print {
+			body {
+				margin: 0;
+				padding: 0;
+				background: white;
+				font-size: 11pt;
+				/* Standard resume font size */
+			}
+
+			/* Hide anything that isn't the resume content (like a 'Back to Portfolio' link) */
+			.no-print {
+				display: none;
+			}
+
+			/* Ensure colors don't get washed out by 'Ink Saver' modes */
+			h1,
+			h2,
+			h3 {
+				color: #000 !important;
+				page-break-after: avoid;
+			}
+
+			section {
+				page-break-inside: avoid;
+			}
+
+			a {
+				text-decoration: none;
+				color: black;
+			}
+
+			/* Optional: Show the full URL of links next to the text when printing */
+			a[href^="http"]:after {
+				content: " (" attr(href) ")";
+				font-size: 9pt;
+			}
+		}
 	</style>
 </head>
 
 <body>
-
+	<div class="no-print" style="padding: 20px; background: #f8f9fa; border-bottom: 1px solid #ddd;">
+		<a href="../index.html" style="text-decoration: none; color: #333; font-family: 'Poppins', sans-serif;">
+			<i class="fas fa-arrow-left"></i> Back to Portfolio
+		</a>
+	</div>
 	<h1>Jherich J. Silas</h1>
 	<div class="contact">
 		Flower Mound, TX | jjsilas@gmail.com<br>
