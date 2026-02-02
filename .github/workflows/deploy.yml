@@ -19,6 +19,7 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 221
-          local_path: './'            # The folder itself, no wildcard
-          remote_path: 'jherichsilas.com' # No leading or trailing slashes
+          local_path: './'
+          remote_path: 'jherichsilas.com'
           sftp_only: true
+          sftpArgs: '-avz --exclude=".git*" --exclude=".vscode"'
