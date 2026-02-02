@@ -19,5 +19,5 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           protocol: sftp
-          port: 22
+          port: 221
           server-dir: /home/www/jherichsilas.com/
