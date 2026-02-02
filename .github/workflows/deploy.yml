@@ -19,6 +19,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 221
-          local_path: './*'  # Go back to the wildcard to grab files only
-          remote_path: 'jherichsilas.com/' # Try relative path without the /home/www/
+          local_path: './'            # The folder itself, no wildcard
+          remote_path: 'jherichsilas.com' # No leading or trailing slashes
           sftp_only: true
