@@ -12,6 +12,12 @@ jobs:
       - name: 🚚 Get latest code
         uses: actions/checkout@v3
 
+      - name: 🧹 Purge local junk
+        run: |
+          rm -rf .git
+          rm -rf .vscode
+          rm -rf .github
+
       - name: 📂 SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.4
         with:
@@ -22,4 +28,3 @@ jobs:
           local_path: './'
           remote_path: 'jherichsilas.com'
           sftp_only: true
-          sftpArgs: '-avz --exclude=".git*" --exclude=".vscode"'
