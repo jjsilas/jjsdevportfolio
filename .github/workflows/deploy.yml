@@ -21,4 +21,4 @@ jobs:
           protocol: ftps
           port: 221
           server-dir: /home/www/jherichsilas.com/
-          # Testing deployment
+          # Testing deployment CI
