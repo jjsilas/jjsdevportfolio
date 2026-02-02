@@ -21,3 +21,4 @@ jobs:
           protocol: sftp
           port: 221
           server-dir: /home/www/jherichsilas.com/
+          # Testing deployment
