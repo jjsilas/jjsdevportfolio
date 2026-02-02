@@ -19,6 +19,6 @@ jobs:
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 221
-          local_path: './*'
-          remote_path: '/home/www/jherichsilas.com/'
+          local_path: '.'   # Changed from './*'
+          remote_path: '/home/www/jherichsilas.com' # Removed trailing slash
           sftp_only: true
